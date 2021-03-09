@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProdutosActivity">
+
+    <TextView
+        android:id="@+id/lblTituloProd"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="#202020"
+        android:backgroundTint="#202020"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="casual"
+        android:text="Cadastrar produto"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/lblTituloProd"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/lblTituloProd" />
+
+    <EditText
+        android:id="@+id/txtTituloProduto"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Título"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblTituloProd" />
+
+    <EditText
+        android:id="@+id/txtSubtituloProduto"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Subtítulo"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/txtTituloProduto"
+        app:layout_constraintStart_toStartOf="@+id/txtTituloProduto"
+        app:layout_constraintTop_toBottomOf="@+id/txtTituloProduto" />
+
+    <EditText
+        android:id="@+id/txtTipoProduto"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Tipo"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/txtSubtituloProduto"
+        app:layout_constraintStart_toStartOf="@+id/txtSubtituloProduto"
+        app:layout_constraintTop_toBottomOf="@+id/txtSubtituloProduto" />
+
+    <EditText
+        android:id="@+id/txtPrecoProd"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Preço"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/txtTipoProduto"
+        app:layout_constraintStart_toStartOf="@+id/txtTipoProduto"
+        app:layout_constraintTop_toBottomOf="@+id/txtTipoProduto" />
+
+    <EditText
+        android:id="@+id/txtDescricaoProd"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Descrição"
+        android:inputType="textMultiLine"
+        android:maxLines="3"
+        android:maxLength="120"
+        app:layout_constraintEnd_toEndOf="@+id/txtPrecoProd"
+        app:layout_constraintStart_toStartOf="@+id/txtPrecoProd"
+        app:layout_constraintTop_toBottomOf="@+id/txtPrecoProd" />
+
+    <Button
+        android:id="@+id/btnAnunciarProduto"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#FFE100"
+        android:text="Anunciar"
+        app:layout_constraintEnd_toEndOf="@+id/txtDescricaoProd"
+        app:layout_constraintStart_toStartOf="@+id/txtDescricaoProd"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescricaoProd" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

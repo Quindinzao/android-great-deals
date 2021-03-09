@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    android:background="#202020">
+
+    <Button
+        android:id="@+id/btnProdutos"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/rounded_button"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
+        android:fontFamily="casual"
+        android:text="Anuncie!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="Produtos"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnProdutos"
+        app:layout_constraintStart_toStartOf="@+id/btnProdutos"
+        app:layout_constraintTop_toBottomOf="@+id/btnProdutos" />
+
+    <Button
+        android:id="@+id/imgProdutos"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/produtos"
+        app:layout_constraintBottom_toBottomOf="@+id/btnProdutos"
+        app:layout_constraintEnd_toEndOf="@+id/btnProdutos"
+        app:layout_constraintStart_toStartOf="@+id/btnProdutos"
+        app:layout_constraintTop_toTopOf="@+id/btnProdutos" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

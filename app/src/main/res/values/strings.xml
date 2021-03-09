@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Great Deals</string>
+
+    <string name="btn_cadastrar">Cadastrar</string>
+
+    <string name="edittext_cf_01">Nome do funcionário</string>
+    <string name="edittext_cf_02">CPF</string>
+    <string name="edittext_cf_03">RG</string>
+    <string name="edittext_cf_04">Nascimento</string>
+    <string name="edittext_cf_05">Data contratação</string>
+    <string name="edittext_cf_06">E-mail do funcionário</string>
+    <string name="edittext_cf_07">Turno</string>
+    <string name="edittext_cf_08">Salário</string>
+    <string name="edittext_cf_09">Cargo</string>
+
+    <string name="tab_text_1">Início</string>
+    <string name="tab_text_2">Equipe</string>
+    <string name="tab_text_3">Anuncie</string>
+
+    <string name="text_view_cf">Cadastrar funcionários</string>
+
+    <string name="text_view_f">Funcionários</string>
+
+    <string name="todo">TODO</string>
+</resources>

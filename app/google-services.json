@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "519809761762",
+    "firebase_url": "https://great-deals-database.firebaseio.com",
+    "project_id": "great-deals-database",
+    "storage_bucket": "great-deals-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519809761762:android:f3a3fcfb171c91eea479bb",
+        "android_client_info": {
+          "package_name": "com.elmocorongo.greatdeals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519809761762-p0nitckdgkh56qu12h6tgms5vct9mf00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPeznuRGaPSoIs7z2E1vvYdXrIbYf9DV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519809761762-p0nitckdgkh56qu12h6tgms5vct9mf00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
